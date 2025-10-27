@@ -106,13 +106,16 @@
 |TC06 | Leaderboard | Ensure leaderboard sorts correctly when multiple players have same score | Scores with same value should appear in correct order(alphabetically based on player name or number) | Score is with same value not differentiated  | Failed | R4 |  
 | TC07 | Bonus Round | Confirm bonus trigger activates after every 3 puzzles | Bonus applies correctly every 3 solved puzzles | Bonus applies correctly every 3 solved puzzles | Passed | R5 |
 | TC08 | Usability | Check if rules and scoring info are easily accessible to new users | Users can find rules within 1 click and understand gameplay | Users can find rules within 1 click and understand gameplay | Passed| R6 |
-| TC09 | Usability | Verify clarity of bonus explanation on UI | Users understand how bonus works without reading long text| Users need to read the long text before understanding how bonus works | Failed | R6|
+| TC09 | Usability | Test first-time player experience without reading the rules | Users understand how bonus works without reading long text| Users struggle to understand scoring until after first few rounds | Failed | R6|
 
 ## Defects
 
 | ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
 |----|-------------|----------|---------|--------|-------------|
-| | | | | | |
+| D1 | Leaderboard data lost permanently after cache clear | High | R1 | Open | |
+| D2 | Reset Game lacks confirmation dialog | Medium | R3 | Open | |
+| D3 | Leaderbaord sortin inconsistency when multiple identical scores | Medium | R4 | Open | |
+| D4 | Bonus explanation unclear to new users | Low | R6 | Open | |
 
 ## Metrics
 
