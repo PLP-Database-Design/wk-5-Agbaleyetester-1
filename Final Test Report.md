@@ -31,27 +31,40 @@
 
 | Feature | Description | Risk Category |
 |---------|-------------|---------------|
-| Reset Game | Clears score and progress instantly | |
-| Leaderboard | Stores top 3 scores in localStorage | |
-| Bonus Round | Every 3 puzzles → doubles score | |
+| Reset Game | Clears score and progress instantly | Low |
+| Leaderboard | Stores top 3 scores in localStorage | Medium |
+| Bonus Round | Every 3 puzzles → doubles score | High |
 
 ## Test Plan
 
 ### Objectives
 
-- 
+- Verify functionality, stability, and correctness of key game features.
+- Ensure leaderboard data persists correctly across browser sessions.
+- Validate bonus scoring logic and accurate reset behavior.  
+- Identify and document defects with reproducible steps.  
 
 ### Scope
 
 **In Scope:**
-- 
+- Functional testing of core gameplay (input validation, score updates).
+- UI validation on Chrome Desktop (responsiveness, usability).
+- LocalStorage persistence verification (leaderboard data).
+- Bonus round scoring and reset functionality.  
 
 **Out of Scope:**
-- 
+- Mobile browser compatibility.
+- Accessibility testing (screen readers).
+- Performance/load testing.
+- Integration with external APIs or multiplayer features.  
 
 ### Tools & Resources
 
-- 
+- Browser: Google Chrome (v129+)  
+- Test Management: Google Sheets
+- Bug Tracking: GitHub Issues
+- Developer Console: Chrome DevTools
+- Communication: WhatsApp / Google Meet  
 
 ### Schedule
 
