@@ -83,7 +83,7 @@
 | ID | Feature | Risk Description | Likelihood | Impact | Priority | Mitigation Strategy |
 |----|---------|------------------|------------|--------|----------|---------------------|
 | R1 | Leaderboard | Leaderboard data is lost if the user clears their browser cache, as it relies on `localStorage` | High | Medium | High | Retest after cache clear; backup data option|  
-| R2 | Bonus Round | The score calculation in incorrect if the player's score is 0 when the bonus is applied | Medium | High | High | Add unit test and verify with multiple round sequences|  |  
+| R2 | Bonus Round | The score calculation in incorrect if the player's score is 0 when the bonus is applied | Medium | High | High | Add unit test and verify with multiple round sequences|
 | R3 | Reset Game | A user might accidentally click 'Reset' and lose their score instantly, as there is no confirmation dialog | High | Medium | High |  |  
 | R4 | Leaderboard | The leaderboard does not sort scores correctly if multiple players have the same score | Medium | Medium | |
 |R5 | Bonus Round | The bonus round trigger is not activated correctly if the 'PuzzlesSolved' count is not updated properly | Low | High | Medium | |  
@@ -136,17 +136,20 @@
 
 | Phase | Deliverable | Actual Output | Variance | Owner |
 |-------|-------------|---------------|----------|-------|
-| | | | | |
+| Planning | Test Plan | Completed | None | Test Manager |
+| Risk Analysis | Risk Matrix | Completed | None | Risk Analyst |
+| Execution | Test Report | Completed | None | Olaleye Ibrahim |
+| Reporting| Final Summary | Completed | None | Test Manager |
 
-**Progress Tracking Method:**  
-**Change Control Notes:**
+**Progress Tracking Method:**  Daily status updates via Google Sheet & WhatsApp group.  
+**Change Control Notes:** No major scope changes during execution; minor adjustment in test duration due to retesting bonus feature.  
 
 ## Lessons Learned
 
-- Most Defect Prone Feature: 
-- Risk Analysis Impact: 
-- Team Communication Effectiveness: 
-- Improvements for Next Cycle: 
+- Most Defect Prone Feature: Leaderboard persistence(due to localStorage dependency)  
+- Risk Analysis Impact: Helped prioritize tests on storage and scoring logic  
+- Team Communication Effectiveness: Smooth coordination throught WhatApp and shared sheet  
+- Improvements for Next Cycle: Add Mobile browser and autommate leeaderboard validation  
 
 ## Attachments
 
@@ -156,12 +159,12 @@
 
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
-| | Test Manager | | |
-| | Risk Analyst | | |
-| | Test Executor | | |
+| | Test Manager | | 27th Oct 2025 |
+| | Risk Analyst | | 27th Oct 2025 |
+| Olaleye Ibrahim | Test Executor | OI | 27th Oct 2025 |
 
 ## Overall Summary
 
 **Statement:** 
-
-**Test Status:** ☐ Completed / ☐ In Progress / ☐ Deferred
+All critical and major functionalities of Word Puzzle Game Plus were tested successfully. Core features like Reset Game, Leaderboard, and Bonus Round function as expected with minor low-severity issues. Risk coverage achieved 90%, and the system is stable for release.  
+**Test Status:** ☑ Completed / ☐ In Progress / ☐ Deferred
