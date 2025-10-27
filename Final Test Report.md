@@ -119,16 +119,16 @@
 
 ## Metrics
 
-- Test Case Pass Percent: 
-- Defect Density: 
-- Risk Coverage Percent: 
-- Regression Success Rate: 
+- Test Case Pass Percent: 55.55%
+- Defect Density: 44.44%
+- Risk Coverage Percent: 100%
+- Regression Success Rate: 80%
 
 ### Defect Summary
 
-- Total Defects Logged: 
-- Critical High: 
-- Fix Rate: 
+- Total Defects Logged: 4
+- Critical High: 1
+- Fix Rate: 25%
 
 ## Test Control & Project Management
 
