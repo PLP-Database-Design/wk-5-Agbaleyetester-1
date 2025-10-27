@@ -112,7 +112,7 @@
 
 | ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
 |----|-------------|----------|---------|--------|-------------|
-| D1 | Leaderboard data lost permanently after cache clear | High | R1 | Open | |
+| D1 | Leaderboard data lost permanently after cache clear | High | R1 | Open | https://github.com/PLP-Database-Design/wk-5-Agbaleyetester-1/issues/5#issue-3557637975 |
 | D2 | Reset Game lacks confirmation dialog | Medium | R3 | Open | |
 | D3 | Leaderbaord sortin inconsistency when multiple identical scores | Medium | R4 | Open | |
 | D4 | Bonus explanation unclear to new users | Low | R6 | Open | |
