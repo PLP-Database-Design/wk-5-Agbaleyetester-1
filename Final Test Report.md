@@ -85,7 +85,7 @@
 | R1 | Leaderboard | Leaderboard data is lost if the user clears their browser cache, as it relies on `localStorage` | High | Medium | High | Retest after cache clear; backup data option|  
 | R2 | Bonus Round | The score calculation in incorrect if the player's score is 0 when the bonus is applied | Medium | High | High | Add unit test and verify with multiple round sequences|
 | R3 | Reset Game | A user might accidentally click 'Reset' and lose their score instantly, as there is no confirmation dialog | High | Medium | High | Add a confirmation modal before reset; implement an undo option |  
-| R4 | Leaderboard | The leaderboard does not sort scores correctly if multiple players have the same score | Medium | Medium | Add sorting test cases; implement tie-breaking logic by timestamp |
+| R4 | Leaderboard | The leaderboard does not sort scores correctly if multiple players have the same score | Medium | Medium | Medium | Add sorting test cases; implement tie-breaking logic by timestamp |
 |R5 | Bonus Round | The bonus round trigger is not activated correctly if the 'PuzzlesSolved' count is not updated properly | Low | High | Medium | Validate counter update in event handlers; add regression test for trigger logic  |  
 | R6 | Usability | The game is not intuitive for new users who may not undestand the soring and bonus system without reading the rules | High | Low | Medium | Add tooltips or onboarding hints; include a “How to Play” popup |
 
